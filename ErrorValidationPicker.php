@@ -3,7 +3,7 @@
 namespace lebedyncrs\errorpicker;
 
 use yii\base\Component;
-use industi\yii2\system\components\interfaces\IErrorValidationContainer;
+use lebedyncrs\errorpicker\interfaces\IErrorValidationContainer;
 
 class ErrorValidationPicker extends Component implements IErrorValidationContainer {
 
