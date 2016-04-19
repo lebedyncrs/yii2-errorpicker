@@ -7,13 +7,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist lebedynrcs/yii2-errorpicker
+php composer.phar require --prefer-dist lebedyncrs/yii2-errorpicker
 ```
 
 or add
 
 ```json
-"lebedynrcs/yii2-errorpicker": "*"
+"lebedyncrs/yii2-errorpicker": "*"
 ```
 
 to the require section of your composer.json.
