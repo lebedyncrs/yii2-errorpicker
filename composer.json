@@ -1,0 +1,22 @@
+{
+    "name": "lebedyncrs/yii2-errorpicker",
+    "description": "Provides support for many-to-many relations saving in Yii2 ActiveRecord",
+    "keywords": ["yii2"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        
+    },
+    "authors": [
+        {
+            "name": "Sergij Lebedyn",
+            "email": "sergij.lebedyn@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": { "lebedyncrs\\yii2-errorpicker\\": "" }
+    }
+}
