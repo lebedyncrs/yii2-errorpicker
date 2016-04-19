@@ -1,11 +1,10 @@
 {
     "name": "lebedyncrs/yii2-errorpicker",
-    "description": "Provides support for many-to-many relations saving in Yii2 ActiveRecord",
+    "description": "Provide error container for validation errors",
     "keywords": ["yii2"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        
     },
     "authors": [
         {
@@ -17,6 +16,8 @@
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-4": { "lebedyncrs\\yii2-errorpicker\\": "" }
+        "psr-4": {
+            "lebedyncrs\\yii2-errorpicker\\": ""
+        }
     }
 }
