@@ -1,7 +1,7 @@
 {
     "name": "lebedyncrs/yii2-errorpicker",
     "description": "Provide error container for validation errors",
-    "keywords": ["yii2"],
+    "keywords": ["yii2", "errors"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
