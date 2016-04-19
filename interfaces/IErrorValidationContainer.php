@@ -18,7 +18,7 @@ interface IErrorValidationContainer {
      * @param array $errors
      * @param string $category name of wrapper to errors
      */
-    public function addErrors(array $errors, $category = null, $index = false);
+    public function addErrors(array $errors, $category = null, $index = null);
 
     /**
      * Check if errors exist
