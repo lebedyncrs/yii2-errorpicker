@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lebedyncrs\\yii2-errorpicker\\": ""
+            "lebedyncrs\\errorpicker\\": ""
         }
     }
 }
