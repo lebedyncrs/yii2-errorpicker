@@ -1,6 +1,6 @@
 {
     "name": "lebedyncrs/yii2-errorpicker",
-    "description": "Provide error container for validation errors",
+    "description": "Provide global object which contain all validation errors from each model",
     "keywords": ["yii2", "errors"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
