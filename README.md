@@ -1,4 +1,5 @@
-# yii2-errorpicker
+Component provide global object for validation errors in Yii2 rest api
+============================================
 Installation
 ------------
 
@@ -30,8 +31,6 @@ This extension provides global object for validation errros and is userfull in r
     ....
 ]
 ```
-After that you can get access via ```phpYii::$app->errorpicker```.<br>
-Add errors to container ```phpYii::$app->errorpicker->addErrors($array);```<br>
-Get all errors ```phpYii::$app->errorpicker->getErrors();```<br>
-Has errors ```phpYii::$app->errorpicker->hasErrors();```
+When you develop rest api global context for errors validation is very useful. This component provide that.
+
 
