@@ -30,8 +30,8 @@ This extension provides global object for validation errros and is userfull in r
     ....
 ]
 ```
-After that you can get access via ```phpYii::$app->errorpicker```.
-Add errors to container ```phpYii::$app->errorpicker->addErrors($array);```
-Get all errors ```phpYii::$app->errorpicker->getErrors();```
+After that you can get access via ```phpYii::$app->errorpicker```.<br>
+Add errors to container ```phpYii::$app->errorpicker->addErrors($array);```<br>
+Get all errors ```phpYii::$app->errorpicker->getErrors();```<br>
 Has errors ```phpYii::$app->errorpicker->hasErrors();```
 
