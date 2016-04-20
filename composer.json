@@ -1,6 +1,6 @@
 {
     "name": "lebedyncrs/yii2-errorpicker",
-    "description": "Provide global object which contain all validation errors from each model",
+    "description": "Provide global object which can contain all validation errors. It's userfull in REST API",
     "keywords": ["yii2", "errors"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
