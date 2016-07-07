@@ -20,8 +20,10 @@ class ErrorValidationPicker extends Component implements IErrorValidationContain
      * @inheritdoc
      */
     public function addErrors(array $errors, $category = null, $index = null) {
-        if ($category && $index) {
-            $this->_errors[$category][$index] = $errors;
+        if ($category && is_integer($index)) {
+            foreach ($errors as $attrName => $messages) {
+                $this->_errors[$category][$index][$attrName] = $messages;
+            }
         } elseif ($category && $index === false) {
             $this->_errors[$category] = $errors;
         } elseif ($category) {
